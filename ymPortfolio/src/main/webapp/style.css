@@ -669,3 +669,21 @@ width: 95%;
     right: 0;
   }
 }
+
+
+.img-fluid2 {
+	margin-bottom: 5em;
+    scale: 1.15;
+    margin-top: 3em;
+    margin-left: -5em;
+}
+
+.txt-fx2 {
+	font-size: 50px !important;
+}
+
+a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
+    float: right;
+    margin-top: -10em;
+    margin-right: 23em;
+}
