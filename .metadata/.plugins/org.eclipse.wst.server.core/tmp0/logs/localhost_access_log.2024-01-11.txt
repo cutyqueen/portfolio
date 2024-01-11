@@ -1,0 +1,15 @@
+127.0.0.1 - - [11/Jan/2024:18:08:14 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [11/Jan/2024:18:08:14 +0900] "GET /ymPortfolio/WEB-INF/index.html HTTP/1.1" 404 721
+0:0:0:0:0:0:0:1 - - [11/Jan/2024:18:09:05 +0900] "GET /ymPortfolio/WEB-INF/index.html HTTP/1.1" 404 721
+127.0.0.1 - - [11/Jan/2024:18:10:34 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [11/Jan/2024:18:10:48 +0900] "GET /ymPortfolio/index.html HTTP/1.1" 200 41523
+0:0:0:0:0:0:0:1 - - [11/Jan/2024:18:10:48 +0900] "GET /ymPortfolio/css/vendor.css HTTP/1.1" 200 48601
+0:0:0:0:0:0:0:1 - - [11/Jan/2024:18:10:48 +0900] "GET /ymPortfolio/images/main-logo.png HTTP/1.1" 200 1528
+0:0:0:0:0:0:0:1 - - [11/Jan/2024:18:10:48 +0900] "GET /ymPortfolio/style.css HTTP/1.1" 200 15299
+0:0:0:0:0:0:0:1 - - [11/Jan/2024:18:10:48 +0900] "GET /ymPortfolio/images/banner-image.png HTTP/1.1" 200 301926
+0:0:0:0:0:0:0:1 - - [11/Jan/2024:18:10:48 +0900] "GET /ymPortfolio/images/port-item1.jpg HTTP/1.1" 200 53324
+0:0:0:0:0:0:0:1 - - [11/Jan/2024:18:10:48 +0900] "GET /ymPortfolio/images/port-item3.jpg HTTP/1.1" 200 44691
+0:0:0:0:0:0:0:1 - - [11/Jan/2024:18:10:48 +0900] "GET /ymPortfolio/images/port-item2.jpg HTTP/1.1" 200 40670
+0:0:0:0:0:0:0:1 - - [11/Jan/2024:18:10:48 +0900] "GET /ymPortfolio/js/jquery-1.11.0.min.js HTTP/1.1" 200 96383
+0:0:0:0:0:0:0:1 - - [11/Jan/2024:18:10:48 +0900] "GET /ymPortfolio/js/plugins.js HTTP/1.1" 200 205725
+0:0:0:0:0:0:0:1 - - [11/Jan/2024:18:10:48 +0900] "GET /ymPortfolio/js/script.js HTTP/1.1" 200 4084
