@@ -215,8 +215,6 @@
           
           <section id="about" class="my-5 py-5 bg-text" data-text="02">
             <div class="row d-flex flex-wrap" data-aos="fade-up">
-                <h2 class="display-4 txt-fx slide-up">Introduce</h2>
-                <p class="fs25 aos-animate"> 자기소개!!!!!!!!!!! </p>
               <div class="col-lg-6 pb-5">
                 <h2 class="display-4 txt-fx slide-up">Education</h2>
                 <div class="data-info py-3" data-aos="fade-up">
