@@ -21,6 +21,14 @@ CSS STRUCTURE:
 2. GENERAL TYPOGRAPHY
 
 --------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 :root,
 [data-bs-theme=light] {
   --heading-font: "Roboto", Verdana, serif;
@@ -87,7 +95,6 @@ h6,
 .display-4,
 .display-5,
 .display-6 {
-  font-family: var(--heading-font);
   font-weight: var(--heading-font-weight);
   line-height: var(--heading-line-height);
   color: var(--heading-color);
@@ -653,7 +660,7 @@ width: 95%;
   position: relative;
 }
 .bg-text:after {
-  content: attr(data-text);
+/*   content: attr(data-text); */
   position: absolute;
   right: -10%;
   bottom: 100px;
@@ -679,11 +686,113 @@ width: 95%;
 }
 
 .txt-fx2 {
-	font-size: 50px !important;
+	font-size: 36px !important;
+	margin-top: 15px;
 }
 
 a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
-    float: right;
-    margin-top: -10em;
+   float: right;
+    margin-top: -15em;
     margin-right: 23em;
+}
+
+.fs25 {
+	font-size: 25px;
+}
+.pf1 {width:144em !important;}
+
+.nemo {
+	margin-left: -40px;
+    width: 109%;
+    display: flex;
+}
+
+.nemo1 {
+  background-color: #F6EBEA;
+  border-radius: 5%;
+  width: 45%;
+  padding: 3%;
+  position: relative;
+}
+.nemo2 {
+	margin-left: 50px;
+  background-color: #EFF7F9;
+  border-radius: 5%;
+  width: 45%;
+  padding: 3%;
+  position: relative;
+}
+
+#gitsize {
+	font-family: 'SBAggroB';
+	font-size: 35px;
+    margin-bottom: 30px;
+}
+
+#hrefsize {
+	font-size: 22px;
+	color: #259AE2;
+}
+
+#hrefsize2 {
+	font-size: 22px;
+	margin: 10px 0 15px 0;	
+}
+#ulsize {
+	font-size: 20px;
+}
+
+.col-lg-6.aos-init.aos-animate {
+    width: 200%;
+}
+
+.rounded-box {
+    width: 480px;
+    background-color: #fff;
+    border: 2px solid #e5e5e5;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    color: #e5e5e5;
+    font-size: 18px;
+    text-decoration: none;
+    position: relative;
+    overflow: hidden;
+    transition: box-shadow 0.5s;
+}
+
+.rounded-box:hover {
+    box-shadow: 0px 4px 15px #e5e5e5;
+}
+
+.rounded-box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 120%;
+    height: 120%;
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.5) 30%, rgba(255, 255, 255, 0.8) 60%, rgba(255, 255, 255, 1) 100%);
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.5s;
+}
+
+.rounded-box:hover::before {
+    opacity: 1;
+}
+
+.rounded-box span {
+    margin-top: 10px;
+    font-size: 16px;
+    opacity: 0.7;
+}
+        
+.projectD {
+	display: flex;
+}
+
+#finalP {
+	margin-left: 5em;
 }
