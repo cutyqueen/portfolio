@@ -955,6 +955,5 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 }
 
 .h3size {
-	margin-top:2%;
 	font-size: 23px;
 }

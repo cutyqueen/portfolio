@@ -340,7 +340,7 @@
               </div>
             </div>
             <div class="row">
-            <div class="skill slide-up"  data-aos="fade-up">
+            <div class="skill slide-up"  data-aos="fade-up" data-aos-delay="400">
             
             <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdeIusJ%2FbtsDrFc1hLD%2FYkTAFHVyXRKm9GiTlvSwzk%2Fimg.png" alt="mybatis" id="mybatis">
             <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbGEjUJ%2FbtsDriPTbvj%2FMV5ZwzJk6fTElp4XykMOu1%2Fimg.png" alt="aws" id="aws">
