@@ -694,12 +694,12 @@ width: 95%;
 
 a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
    float: right;
-   margin-top: -20%;
-    margin-right: 29%;
+    margin-top: -15em;
+    margin-right: 23em;
 }
 
 .fs25 {
-	font-size: 20px;
+	font-size: 25px;
 }
 .pf1 {width:144em !important;}
 
@@ -952,8 +952,4 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 	width: 7%;
 	margin-left: 3%;
 	margin-top: -16%;
-}
-
-.h3size {
-	font-size: 23px;
 }
