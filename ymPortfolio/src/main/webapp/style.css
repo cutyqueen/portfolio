@@ -687,8 +687,8 @@ width: 95%;
 
 .img-fluid2 {
 	margin-bottom: 5em;
-    scale: 1.15;
-    margin-top: 3em;
+    scale: 1.1;
+    margin-top: 5em;
     margin-left: -5em;
 }
 
@@ -993,4 +993,16 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 ::selection {
   background-color: #F8E0E0; /* 드래그시 배경색 변경 */
   color: black; /* 드래그시 텍스트 색상 변경 */
+}
+
+.sec1 {
+    margin-top: 10%;
+    font-size: 18px;
+}
+.addWork {
+	margin-left: 78%;
+    margin-top: -34%;
+    margin-bottom: 28%;
+    background: #F8E0E0;
+    width: 21%;
 }
