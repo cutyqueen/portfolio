@@ -106,6 +106,11 @@ a {
   text-decoration: none;
   transition: all 0.3s ease-out;
 }
+u {
+	display: inline;
+	text-decoration: none;
+	box-shadow: inset 0 -10px 0 hsla(53, 89%, 50%, 0.53);
+}
 
 /* Dropdown */
 .dropdown-menu {
@@ -694,12 +699,12 @@ width: 95%;
 
 a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
    float: right;
-    margin-top: -15em;
-    margin-right: 23em;
+   margin-top: -20%;
+    margin-right: 29%;
 }
 
 .fs25 {
-	font-size: 25px;
+	font-size: 20px;
 }
 .pf1 {width:144em !important;}
 
@@ -712,17 +717,32 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 .nemo1 {
   background-color: #F6EBEA;
   border-radius: 5%;
-  width: 45%;
+  width: 55%;
   padding: 3%;
   position: relative;
+   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 스타일 */
 }
+
+.nemo1:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 호버 시 그림자 스타일 변경 */
+}
+
 .nemo2 {
 	margin-left: 50px;
   background-color: #EFF7F9;
   border-radius: 5%;
-  width: 45%;
+  width: 55%;
   padding: 3%;
   position: relative;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 스타일 */
+}
+
+.nemo2:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 호버 시 그림자 스타일 변경 */
 }
 
 #gitsize {
@@ -897,12 +917,13 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 	margin-left: -15%;
 	margin-top: -54%;
 }
-#jsp {
+.jsp {
 	position: relative;
 	overflow: visible;
 	width: 7%;
 	margin-left: 10%;
 	margin-top: -45%;
+	display: inline-block;
 }
 #linux {
 	position: relative;
@@ -952,4 +973,24 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 	width: 7%;
 	margin-left: 3%;
 	margin-top: -16%;
+}
+
+.h3size {
+	margin-top:2%;
+	font-size: 23px;
+}
+
+.semiP, .finalP {
+	 transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 스타일 */
+}
+
+.semiP:hover, .finalP:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 호버 시 그림자 스타일 변경 */
+}
+
+::selection {
+  background-color: #F8E0E0; /* 드래그시 배경색 변경 */
+  color: black; /* 드래그시 텍스트 색상 변경 */
 }
