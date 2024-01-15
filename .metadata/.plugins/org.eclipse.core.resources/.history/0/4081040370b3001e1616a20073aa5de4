@@ -237,7 +237,7 @@
           <section id="about" class="my-5 py-5 bg-text" data-text="02">
             <div class="row d-flex flex-wrap" data-aos="fade-up">
                 <h2 class="display-4 txt-fx slide-up">Introduce</h2>
-                <p class="fs25 aos-animate slide-up"> 
+                <p class="fs25 aos-animate"> 
                 저는 정보통신공학과를 전공으로 한 4학년 2학기 동안 강의와 함께 국비학원에서 Spring 및 Java 등 벡앤드 개발자로써의 
                 역량을 키웠습니다. 사용자의 요구를 코드로 구현하고 그 결과물을 통해 얻는 성취감으로 코딩의 즐거움을 처음으로
                  경험하게 되었습니다. 특히, 사용자가 서비스를 보다 간편하게 이용할 수 있도록 모달을 적극적으로 활용한 웹 사이트를 
@@ -251,7 +251,7 @@
                 <section id="strength" class="my-5 py-5 bg-text" data-text="02">
             <div class="row d-flex flex-wrap" data-aos="fade-up">
                 <h2 class="display-4 txt-fx slide-up">Strength</h2>
-                <div class="slide-up" data-aos="fade-up" data-aos-delay="300">
+                <div>
                 <h3>✔️긍정적인 마인드</h3>
                 <p class="fs25 aos-animate"> 어떠한 일이라도 항상 긍정적인 마음가짐으로 임하며, 
                 어려운 상황에서도 긍정적인 에너지를 유지하는 것이 제 자신의 가치관 중 하나입니다.
@@ -328,7 +328,7 @@
             <div class="row justify-content-left mb-5">
               <div class="col-lg-6" data-aos="fade-up">
                 <h2 class="display-1 txt-fx slide-up">SkillSet</h2>
-                <p class="fs25 aos-animate slide-up"> 개발 가능한 언어 및 프레임워크 </p>
+                <p class="fs25 aos-animate"> 개발 가능한 언어 및 프레임워크 </p>
               </div>
             </div>
             <div class="row">
@@ -363,7 +363,7 @@
           <section id="archiving" class="my-5 py-5 bg-text" data-text="04"><div class="col-lg-6" data-aos="fade-up">
                 <h2 class="display-1 txt-fx slide-up">Archiving</h2>
               </div>
-             <div class="nemo py-4 px-5 imageS1 slide-up" data-aos="fade-up" data-aos-delay="300">
+             <div class="nemo py-4 px-5 imageS1" data-aos="fade-up" data-aos-delay="300">
 			<div class="nemo1">
 			<div id="gitsize">
 			   <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
@@ -398,11 +398,11 @@
               <div class="row justify-content-left g-5 pf1">
                 <div class="col-lg-4">
                   <h2 class="display-1 txt-fx slide-up">Creative Works</h2>
-                <p class="fs25 aos-animate slide-up"> 프로젝트를 진행하면서 다져진 경험이 스며들어 있습니다. </p>
+                <p class="fs25 aos-animate"> 프로젝트를 진행하면서 다져진 경험이 스며들어 있습니다. </p>
                 </div>
               </div>
             </div>
-            <div class="projectD slide-up">
+            <div class="projectD">
            <a href="https://www.notion.so/6eabc845c73d42aa92814ba55531ea21?p=bc4c0b1ca85d43a5b51a8a96b924130d&pm=c" class="rounded-box">
         	<img alt="semiProject" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FzDkcU%2FbtsDrI8IL8F%2FafIlMdFBHXpGJfFmYBFF30%2Fimg.png" style="max-width: 500px;"data-aos="fade-up" data-aos-delay="300">>
 		    </a>
@@ -413,6 +413,7 @@
           </section>
         </div>
         <!-- / content wrapper -->
+
       </div>
     </main>
 
