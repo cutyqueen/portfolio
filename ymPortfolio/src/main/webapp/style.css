@@ -261,14 +261,19 @@ u {
 
 /* end of Bootstrap Color Theme */
 @media (min-width: 1200px) {
-
-  .container,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container-xl {
+	.projectD, .semiLink, .finalLink, .nemo, .nemo1, .nemo2, .container,
+		.container-lg, .container-md, .container-sm, .container-xl {
     max-width: 1440px;
   }
+}
+@media screen and (max-width: 768px) {
+    .projectD {
+        display: block !important; /* Change to block to stack elements vertically on smaller screens */
+    }
+    .finalLink {
+    padding-top: 17%;
+}
+    
 }
 
 /* one page menu */
@@ -815,10 +820,6 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 	display: flex;
 }
 
-#finalP {
-	margin-left: 5em;
-}
-
 /************************/
 .skill {
   margin-top: 38%;
@@ -1000,9 +1001,33 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
     font-size: 18px;
 }
 .addWork {
-	margin-left: 78%;
-    margin-top: -34%;
-    margin-bottom: 28%;
+	display: block;
     background: #F8E0E0;
-    width: 21%;
+}
+
+#semiDemo, #finalDemo {
+	margin-left: 2em;
+}
+
+.semiLink, .finalLink {
+	font-size: 20px;
+	font-weight: bold;
+}
+.semiLink {
+	margin-right: 5em;
+}
+
+.pwmg {
+    margin-left: 8%;
+}
+
+#intro {
+    scale: 2.2;
+    margin-right: 2%;
+}
+
+#introSvg, #strengthSvg, #eduSvg, #certiSvg, #langSvg, #ArchSvg, #projSvg {
+    scale: 2.5;
+    margin-right: 2%;
+    margin-left: 3%;
 }
