@@ -273,6 +273,9 @@ u {
     .finalLink {
     padding-top: 17%;
 }
+    .portLink {
+    padding-top: 17%;
+}
     
 }
 
@@ -693,7 +696,7 @@ width: 95%;
 .img-fluid2 {
 	margin-bottom: 5em;
     scale: 1.1;
-    margin-top: 5em;
+    margin-top: 7em;
     margin-left: -5em;
 }
 
@@ -981,14 +984,53 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 	font-size: 23px;
 }
 
-.semiP, .finalP {
+.semiP, .finalP, .portP{
 	 transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 스타일 */
 }
 
-.semiP:hover, .finalP:hover {
+.semiP:hover, .finalP:hover, .portP:hover {
   transform: scale(1.1);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 호버 시 그림자 스타일 변경 */
+}
+
+.semiP,
+.finalP,
+.portP {
+  position: relative;
+  overflow: hidden;
+}
+
+.semiP::before,
+.finalP::before,
+.portP::before {
+  content: "Notion 페이지 이동";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 16px;
+  opacity: 1; /* 투명도 조정 */
+  transition: opacity 0.3s ease-in-out;
+}
+
+.semiP:hover::before,
+.finalP:hover::before,
+.portP:hover::before {
+  opacity: 1;
+}
+
+.semiP img,
+.finalP img,
+.portP img {
+  transition: filter 0.3s ease-in-out;
+}
+
+.semiP:hover img,
+.finalP:hover img,
+.portP:hover img {
+  filter: brightness(70%);
 }
 
 ::selection {
@@ -1005,16 +1047,19 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
     background: #F8E0E0;
 }
 
-#semiDemo, #finalDemo {
+#semiDemo, #finalDemo, #portDemo {
 	margin-left: 2em;
 }
 
-.semiLink, .finalLink {
+.semiLink, .finalLink, .portLink{
 	font-size: 20px;
 	font-weight: bold;
 }
-.semiLink {
+.semiLink, .finalLink {
 	margin-right: 5em;
+}
+.portLink {
+	margin-top: 5.8%;
 }
 
 .pwmg {
@@ -1026,3 +1071,27 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
     margin-right: 2%;
 }
 
+#introSvg, #strengthSvg {
+    scale: 2.5;
+    margin-right: 3%;
+    margin-left: 1%;
+}
+
+#eduSvg, #certiSvg, #langSvg, #ArchSvg, #projSvg  {
+	scale: 2.5;
+    margin-right: 6%;
+    margin-left: 3%;
+}
+
+#topBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
