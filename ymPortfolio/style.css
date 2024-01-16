@@ -287,7 +287,7 @@ u {
   font-style: normal;
   font-weight: 400;
   line-height: 240%;
-  border-bottom: 1px solid var(--bs-gray-300);
+  border-bottom: 2px solid darkgray;
 }
 
 #one-page-menu .nav-link::before {
@@ -1082,16 +1082,24 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
     margin-right: 6%;
     margin-left: 3%;
 }
-
 #topBtn {
-  display: none;
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  padding: 10px 20px;
-  cursor: pointer;
-}
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 56px;
+    height: 56px;
+    padding: 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  #topBtn:hover {
+    background-color: #333;
+  }
+  

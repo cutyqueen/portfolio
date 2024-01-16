@@ -171,7 +171,7 @@
         <div class="navigation">
           <div class="site-logo mt-5">
             <a href="index.html">
-              <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcMeLgo%2FbtsDxkFKFpW%2FlYAThptuVX1KF7oJV6rFkK%2Fimg.png" alt="logo" class="img-fluid">
+              <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbOuCOn%2FbtsDyNhjocQ%2FyuSMrLAVQwS9OSJVAE3hDK%2Fimg.png" alt="logo" class="img-fluid">
             </a>
           </div>
           <nav id="one-page-menu" class="vertical-menu my-5">
@@ -186,29 +186,6 @@
           </nav>
         </div>
         </div>
-        
-         <div class="mt-5">
-          <table class="table">
-            <tbody>
-              <tr>
-                <th>Phone</th>
-                <td>010 - 4151 - 0572</td>
-              </tr>
-              <tr>
-                <th>Email</th>
-                <td><a href="010829mii@gmail.com">010829mii@gmail.com</td>
-              </tr>
-              <tr>
-                <th>GitHub</th>
-                <td><a href="https://github.com/cutyqueen">github.com/cutyqueen</td>
-              </tr>
-              <tr>
-                <th>Tech Blog</th>
-                <td><a href="https://cutyqueen.tistory.com/">cutyqueen.tistory.com</a></td>
-              </tr>
-            </tbody>
-          </table>
-      	</div>
     </header>
 
     <main class="col-lg-10 offset-lg-2">
@@ -288,14 +265,14 @@
             </div>
             <div class="projectD slide-up">
             <div class="semiLink">
-             <span onclick="location.href='https://github.com/itwillproject1/Project1_MTM';"><u>🔗GitHub</u></span>
+             <span onclick="location.href='https://github.com/cutyqueen/MTM.git';"><u>🔗GitHub</u></span>
           <span id="semiDemo" onclick="location.href='http://c7d2307t1.itwillbs.com/trade/main/Main.com';"><u>🔗URL</u><br>ID : admin <span class="pwmg">PW : rhksflwk1</span></span>
            <a href="https://exciting-cast-8e4.notion.site/MTM-Modern-Tech-Market-bc4c0b1ca85d43a5b51a8a96b924130d?pvs=4" class="rounded-box semiP">
         	<img alt="semiProject" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FzDkcU%2FbtsDrI8IL8F%2FafIlMdFBHXpGJfFmYBFF30%2Fimg.png" style="max-width: 500px;"data-aos="fade-up" data-aos-delay="300">
 		    </a>
 		    </div>
 		    <div class="finalLink">
-		     <span onclick="location.href='https://github.com/finalproject7-4/cafein';"><u>🔗GitHub</u></span>
+		     <span onclick="location.href='https://github.com/cutyqueen/cafein.git';"><u>🔗GitHub</u></span>
           	<span id="semiDemo" onclick="location.href='http://c7d2307t4.itwillbs.com/';"><u>🔗URL</u><br>ID : 1000 <span class="pwmg">PW : 100000</span></span>
            <a id="finalP" href="https://exciting-cast-8e4.notion.site/Spring-MES-c3466e13d06246a091d80b7005bd101a?pvs=4" class="rounded-box finalP">
         	<img alt="finalProject" src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcS4xwG%2FbtsDwDr3Y53%2FjQlfGaNXSYYhk3KfVnHfyk%2Fimg.png" style="max-width: 500px;"data-aos="fade-up" data-aos-delay="300">
@@ -424,8 +401,30 @@
       </div>
     </main>
   </div>
-    <button id="topBtn">Top</button>
+    <button id="topBtn">
+  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-bar-up" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M3.646 11.854a.5.5 0 0 0 .708 0L8 8.207l3.646 3.647a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 0 0 0 .708M2.4 5.2c0 .22.18.4.4.4h10.4a.4.4 0 0 0 0-.8H2.8a.4.4 0 0 0-.4.4"/>
+</svg>
+</button>
   
+<script>
+document.getElementById('topBtn').addEventListener('click', function() {
+    // Scroll to the top of the page smoothly
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // Show/hide the button based on the scroll position
+  window.addEventListener('scroll', function() {
+    var topBtn = document.getElementById('topBtn');
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topBtn.style.display = 'block';
+    } else {
+      topBtn.style.display = 'none';
+    }
+  });
+  
+
+</script>
 
 <!--   <script src="js/jquery-1.11.0.min.js"></script> -->
   <script src="jquery-1.11.0.min.js"></script>
