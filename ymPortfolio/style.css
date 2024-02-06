@@ -729,12 +729,12 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
   padding: 3%;
   position: relative;
    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 洹몃┝�옄 �뒪���씪 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 域밸챶�뵝占쎌쁽 占쎈뮞占쏙옙占쎌뵬 */
 }
 
 .nemo1:hover {
   transform: scale(1.1);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* �샇踰� �떆 洹몃┝�옄 �뒪���씪 蹂�寃� */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 占쎌깈甕곤옙 占쎈뻻 域밸챶�뵝占쎌쁽 占쎈뮞占쏙옙占쎌뵬 癰귨옙野껓옙 */
 }
 
 .nemo2 {
@@ -745,12 +745,12 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
   padding: 3%;
   position: relative;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 洹몃┝�옄 �뒪���씪 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 域밸챶�뵝占쎌쁽 占쎈뮞占쏙옙占쎌뵬 */
 }
 
 .nemo2:hover {
   transform: scale(1.1);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* �샇踰� �떆 洹몃┝�옄 �뒪���씪 蹂�寃� */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 占쎌깈甕곤옙 占쎈뻻 域밸챶�뵝占쎌쁽 占쎈뮞占쏙옙占쎌뵬 癰귨옙野껓옙 */
 }
 
 #gitsize {
@@ -827,7 +827,7 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 .skill {
   margin-top: 38%;
     display: flex;
-    align-items: center; /* �꽭濡� 以묒븰 �젙�젹�쓣 �쐞�빐 */
+    align-items: center; /* 占쎄쉭嚥∽옙 餓λ쵐釉� 占쎌젟占쎌졊占쎌뱽 占쎌맄占쎈퉸 */
 }
     
 #laptop {
@@ -849,8 +849,8 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 #jquery {
 	  width: 8%;
 	  margin-left: -22%;
-	  position: relative; /* �씠誘몄��쓽 �긽���쟻�씤 �쐞移섎�� �꽕�젙�븯湲� �쐞�빐 */
-	  overflow: visible; /* �씠誘몄�媛� 遺�紐� 諛뽰쑝濡� �굹媛��룄濡� �꽕�젙 */
+	  position: relative; /* 占쎌뵠沃섎챷占쏙옙�벥 占쎄맒占쏙옙占쎌읅占쎌뵥 占쎌맄燁살꼶占쏙옙 占쎄퐬占쎌젟占쎈릭疫뀐옙 占쎌맄占쎈퉸 */
+	  overflow: visible; /* 占쎌뵠沃섎챷占썲첎占� �겫占쏙쭗占� 獄쏅쉼�몵嚥∽옙 占쎄돌揶쏉옙占쎈즲嚥∽옙 占쎄퐬占쎌젟 */
 	  margin-top: -2px;
 	  margin-top: -50%;
 }
@@ -971,7 +971,7 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 	margin-left: -17%;
 	margin-top: -23%;
 }
-#xml {
+#oracle {
 	position: relative;
 	overflow: visible;
 	width: 10%;
@@ -986,12 +986,12 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 
 .semiP, .finalP, .portP{
 	 transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 洹몃┝�옄 �뒪���씪 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 域밸챶�뵝占쎌쁽 占쎈뮞占쏙옙占쎌뵬 */
 }
 
 .semiP:hover, .finalP:hover, .portP:hover {
   transform: scale(1.1);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* �샇踰� �떆 洹몃┝�옄 �뒪���씪 蹂�寃� */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 占쎌깈甕곤옙 占쎈뻻 域밸챶�뵝占쎌쁽 占쎈뮞占쏙옙占쎌뵬 癰귨옙野껓옙 */
 }
 
 .semiP,
@@ -1004,14 +1004,14 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 .semiP::before,
 .finalP::before,
 .portP::before {
-  content: "Notion �럹�씠吏� �씠�룞";
+  content: "Notion 占쎈읂占쎌뵠筌욑옙 占쎌뵠占쎈짗";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 16px;
-  opacity: 1; /* �닾紐낅룄 議곗젙 */
+  opacity: 1; /* 占쎈떮筌뤿굝猷� 鈺곌퀣�젟 */
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -1034,8 +1034,8 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 }
 
 ::selection {
-  background-color: #F8E0E0; /* �뱶�옒洹몄떆 諛곌꼍�깋 蹂�寃� */
-  color: black; /* �뱶�옒洹몄떆 �뀓�뒪�듃 �깋�긽 蹂�寃� */
+  background-color: #F8E0E0; /* 占쎈굡占쎌삋域밸챷�뻻 獄쏄퀗瑗랃옙源� 癰귨옙野껓옙 */
+  color: black; /* 占쎈굡占쎌삋域밸챷�뻻 占쎈�볩옙�뮞占쎈뱜 占쎄퉳占쎄맒 癰귨옙野껓옙 */
 }
 
 .sec1 {
