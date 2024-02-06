@@ -729,12 +729,12 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
   padding: 3%;
   position: relative;
    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 스타일 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 洹몃┝�옄 �뒪���씪 */
 }
 
 .nemo1:hover {
   transform: scale(1.1);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 호버 시 그림자 스타일 변경 */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* �샇踰� �떆 洹몃┝�옄 �뒪���씪 蹂�寃� */
 }
 
 .nemo2 {
@@ -745,12 +745,12 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
   padding: 3%;
   position: relative;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 스타일 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 洹몃┝�옄 �뒪���씪 */
 }
 
 .nemo2:hover {
   transform: scale(1.1);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 호버 시 그림자 스타일 변경 */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* �샇踰� �떆 洹몃┝�옄 �뒪���씪 蹂�寃� */
 }
 
 #gitsize {
@@ -827,7 +827,7 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 .skill {
   margin-top: 38%;
     display: flex;
-    align-items: center; /* 세로 중앙 정렬을 위해 */
+    align-items: center; /* �꽭濡� 以묒븰 �젙�젹�쓣 �쐞�빐 */
 }
     
 #laptop {
@@ -849,8 +849,8 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 #jquery {
 	  width: 8%;
 	  margin-left: -22%;
-	  position: relative; /* 이미지의 상대적인 위치를 설정하기 위해 */
-	  overflow: visible; /* 이미지가 부모 밖으로 나가도록 설정 */
+	  position: relative; /* �씠誘몄��쓽 �긽���쟻�씤 �쐞移섎�� �꽕�젙�븯湲� �쐞�빐 */
+	  overflow: visible; /* �씠誘몄�媛� 遺�紐� 諛뽰쑝濡� �굹媛��룄濡� �꽕�젙 */
 	  margin-top: -2px;
 	  margin-top: -50%;
 }
@@ -974,7 +974,7 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 #xml {
 	position: relative;
 	overflow: visible;
-	width: 7%;
+	width: 10%;
 	margin-left: 3%;
 	margin-top: -16%;
 }
@@ -986,12 +986,12 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 
 .semiP, .finalP, .portP{
 	 transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 스타일 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 洹몃┝�옄 �뒪���씪 */
 }
 
 .semiP:hover, .finalP:hover, .portP:hover {
   transform: scale(1.1);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* 호버 시 그림자 스타일 변경 */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* �샇踰� �떆 洹몃┝�옄 �뒪���씪 蹂�寃� */
 }
 
 .semiP,
@@ -1004,14 +1004,14 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 .semiP::before,
 .finalP::before,
 .portP::before {
-  content: "Notion 페이지 이동";
+  content: "Notion �럹�씠吏� �씠�룞";
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
   font-size: 16px;
-  opacity: 1; /* 투명도 조정 */
+  opacity: 1; /* �닾紐낅룄 議곗젙 */
   transition: opacity 0.3s ease-in-out;
 }
 
@@ -1034,8 +1034,8 @@ a.btn.btn-dark.text-uppercase.py-4.px-5.aos-init.aos-animate {
 }
 
 ::selection {
-  background-color: #F8E0E0; /* 드래그시 배경색 변경 */
-  color: black; /* 드래그시 텍스트 색상 변경 */
+  background-color: #F8E0E0; /* �뱶�옒洹몄떆 諛곌꼍�깋 蹂�寃� */
+  color: black; /* �뱶�옒洹몄떆 �뀓�뒪�듃 �깋�긽 蹂�寃� */
 }
 
 .sec1 {
